@@ -20,7 +20,7 @@ jobs:
               with:
                 node-version: 18
             - name: Installing Packages
-              uses: npm install && npm install --global vercel@latest
+              run: npm install && npm install --global vercel@latest
             - name: Pulling Vercel ENV
               run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
             - name: Building Project
