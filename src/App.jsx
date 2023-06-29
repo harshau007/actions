@@ -15,12 +15,12 @@ function App() {
                     close => (
                         <div className='modal'>
                             <div className='content' style={{ color: 'black'}}>
-                                Hii! My name is Harsh
+                                Hii! My name is Harsh and I am DevOps Team Member
                             </div>
                             <div>
                                 <button onClick=
                                     {() => close()}>
-                                        Close modal
+                                        Close
                                 </button>
                             </div>
                         </div>
