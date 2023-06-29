@@ -15,9 +15,8 @@ function App() {
                     close => (
                         <div className='modal'>
                             <div className='content' style={{ color: 'black'}}>
-                                Welcome to Production team!!!
+                                Hii! My name is Harsh
                             </div>
-                            {/* test */}
                             <div>
                                 <button onClick=
                                     {() => close()}>
